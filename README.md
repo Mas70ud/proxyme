@@ -20,4 +20,8 @@ Single file. No dependencies. Pure Python stdlib.
 - Python 3 (usually preinstalled)
 
 ```bash
-pkg install python
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/Mas70ud/proxyme.git
+cd proxyme
+python proxyme.py
